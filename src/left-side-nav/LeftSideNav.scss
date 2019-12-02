@@ -1,0 +1,33 @@
+.left-side-nav {
+  padding: 0;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  width: 100%;
+  height: 170px;
+  img {
+    width: 50px;
+    height: 50px;
+    margin: 20px 40px;
+  }
+}
+
+.list {
+  list-style: none;
+  padding-left: 15px;
+  margin: 0;
+  .list-item {
+    height: 60px;
+    color: black;
+    padding: 20px 0 0 30px;
+    cursor: pointer;
+    &.active {
+      border-left: 7px solid #cfd6f1;
+      background-color: #fafafb;
+      padding-left: 23px;
+      color: blue;
+    }
+  }
+}

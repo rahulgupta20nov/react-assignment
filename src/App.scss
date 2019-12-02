@@ -1,0 +1,21 @@
+
+@import "./../node_modules/bootstrap/scss/bootstrap-grid.scss";
+
+.text-right {
+  text-align: right;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+.tab-panel>div {
+  background-color: white;
+  padding: 10px 24px;
+  margin: 24px 0;
+  border-radius: 5px;
+}
+
+button {
+  text-transform: none !important;
+}
